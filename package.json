@@ -1,0 +1,24 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michał Gawlik",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "watch": "cross-env PORT=1337 nodemon --inspect ."
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "mongoose": "^5.11.6",
+    "objection": "^2.2.3",
+    "sha2": "^1.0.2",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

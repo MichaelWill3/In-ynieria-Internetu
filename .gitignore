@@ -1,0 +1,6 @@
+.node_modules/
+.vscode/
+.github/
+dev.sqlite3
+yarn-error
+yarn.lock
